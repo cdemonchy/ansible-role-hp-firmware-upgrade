@@ -39,7 +39,7 @@
    - intel-network-adapter
   when: upgrade_intel_network_adapter_firmware
 
-- include_tasks: mellanox_network_adapter.yml
-  tags:
-   - mellanox-network-adapter
-  when: upgrade_mellanox_network_adapter_firmware
+#- include_tasks: mellanox_network_adapter.yml
+#  tags:
+#   - mellanox-network-adapter
+#  when: upgrade_mellanox_network_adapter_firmware
